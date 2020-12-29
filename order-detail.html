@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訂單詳情</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">訂單詳情</h1>
+        <div id="cart-box">
+            <a href="./cart.html">
+                <img src="./public/img/cart.png" alt="購物車" id="cart">
+                <!-- 購物車有商品 -->
+                <div class="add-num">
+                    13
+                </div>
+            </a>
+        </div>
+    </header>
+    <main class="container no-footer" id="record">
+        <div class="user-data result">
+            <span class="date">2020.10.04</span>
+            <span class="status notpick">未取貨</span>
+            <table>
+                <tr>
+                    <td>訂單編號</td>
+                    <td>A346294</td>
+                </tr>
+                <tr>
+                    <td>姓名</td>
+                    <td>喜洋洋</td>
+                </tr>
+                <tr>
+                    <td>電話</td>
+                    <td>0912849380</td>
+                </tr>
+                <tr>
+                    <td>發票</td>
+                    <td>個人發票</td>
+                </tr>
+            </table>
+        </div>
+        <div class="order-content" style="margin-bottom: 120px;">
+            <div class="main-cart">
+                <div class="cart-store">
+                    <div class="s-title"><a href="./store.html">有甘田 Nourii</a></div>
+                    <table class="store-info">
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>台北市萬華區雙園街49巷38號</td>
+                        </tr>
+                    </table>
+                    <div class="cart-product product">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">NT$54</p>
+                            <p class="spec">大</p>
+                            <p class="order-num">x3</p>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product product">
+                        <div class="text">
+                            <h4 class="name">無糖軟糖 無添加 低卡 低熱量 護齒 禮物</h4>
+                            <p class="price">NT$82</p>
+                            <p class="spec">薄荷口味</p>
+                            <p class="order-num">x2</p>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-store">
+                    <div class="s-title"><a href="./store.html">吉室 JSTaiwan</a></div>
+                    <table class="store-info">
+                        <tr>
+                            <td><i class="fas fa-map-marker-alt"></i></td>
+                            <td>台北市萬華區雙園街49巷38號</td>
+                        </tr>
+                    </table>
+                    <div class="cart-product product">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">NT$31</p>
+                            <p class="spec">大</p>
+                            <p class="order-num">x1</p>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="total-box">
+                <span class="tt">總額</span>
+                <span class="total">NT$378</span>
+            </div>
+        </div>
+    </main>
+
+    <!-- awesomefont CDN -->
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./public/js/index.js"></script>
+</body>
+
+</html>

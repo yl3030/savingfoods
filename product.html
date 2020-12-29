@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>簡單李 麻吉兄弟 | 肉鬆花生夾心餅</title>
+    <!-- swiper CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- my css CDN -->
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="menu-icon">
+            <div class="top-bar bar"></div>
+            <div class="middle-bar bar"></div>
+            <div class="bottom-bar bar"></div>
+        </div>
+        <h1 id="title">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h1>
+        <div id="cart-box">
+            <a href="./cart.html">
+                <img src="./public/img/cart.png" alt="購物車" id="cart">
+                <!-- 購物車有商品 -->
+                <div class="add-num">
+                    13
+                </div>
+            </a>
+        </div>
+    </header>
+    <nav id="menu" class="nav-content">
+        <ul>
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="./personal-info.html">個人資料</a></li>
+            <li><a href="./order.html">購買紀錄</a></li>
+            <li><a href="./attend-store.html">關注賣家</a></li>
+            <li><a href="./store-center.html">賣家中心</a></li>
+        </ul>
+    </nav>
+    <main id="main-product">
+        <div id="big-pic" class="sw bg" style="background-image: url(./public/img/product1.png);">
+            <img src="./public/img/product1.png" alt="">
+        </div>
+
+        <div id="product-detail" class="container">
+            <h4 id="product-name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+            <p class="price">NT$54</p>
+            <div class="deadline" close-time="2021-01-03 12:10:46">
+                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                <p class="expired">已過期</p>
+            </div>
+            <span class="remain">剩餘數量｜38</span>
+            <p class="introduce">
+                【全新組合】一次品嘗裸食及輕盈纖食<br>
+                務必於訂單上備註，若無備註則隨機出貨，恕不更改。<br>
+                裸食口味：巧克力、薑黃、肉桂、黑糖、椒鹽<br>
+                纖食口味：原味、可可、椰香、海鹽海苔
+            </p>
+            <div class="p-spec choice">
+                <div class="select-box">
+                    <div class="active-select">
+                        <p id="as">巧克力口味</p>
+                        <img src="./public/img/Triangle.png" alt="">
+                    </div>
+                    <ul class="hide-select">
+                        <li>巧克力口味</li>
+                        <li>草莓口味</li>
+                        <li>葡萄口味</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="buy-num choice">
+                <div class="num-input">
+                    <div class="circle minus">
+                        <div class="bar"></div>
+                    </div>
+                    <input type="text" value="0" class="active-num">
+                    <div class="circle plus">
+                        <div class="bar verticle"></div>
+                        <div class="bar horizontal"></div>
+                    </div>
+                </div>
+            </div>
+            <button id="addtocart" class="btn">加入購物車</button>
+        </div>
+        <div class="add-alert alert container">
+            <div class="circle">
+                <i class="fas fa-check"></i>
+            </div>
+            <p>商品已加入購物車</p>
+        </div>
+        <div class="noadd-alert alert container">
+            <div class="circle">
+                <i class="fas fa-exclamation"></i>
+            </div>
+            <p>您未選擇商品數量</p>
+        </div>
+
+        <div id="product-store" class="container">
+            <div class="pic-box">
+                <div class="pic bg" style="background-image: url(./public/img/store1.jpg);">
+                    <img src="./public/img/store1.jpg" alt="">
+                </div>
+            </div>
+            <div class="data-box">
+                <div class="data">
+                    <p class="num">436</p>
+                    <p class="d-title">商品數</p>
+                </div>
+                <div class="divide"></div>
+                <div class="data">
+                    <p class="num">30</p>
+                    <p class="d-title">關注人數</p>
+                </div>
+            </div>
+            <h5 class="store-name">吉室 JSTaiwan</h5>
+            <p class="store-introduce">
+                第一次喝到台灣咖啡是爸爸親手摘下院子裡紅通通的咖啡果，並親自處理及烘焙。讓當時身在美國西雅圖唸書的我們品嚐之後，除了內心的感動外，口感上更令我們感到驚艷，因為能喝到家鄉所栽種的咖啡是一種思鄉的幸福與感動。
+            </p>
+            <div class="btn-box">
+                <button class="lookstore">
+                    <a href="./store.html">查看賣家</a>
+                </button>
+                <button class="attention ing">關注中</button>
+                <button class="attention notyet">關注</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">用戶條款</a></li>
+                <li><a href="#">隱私權政策</a></li>
+            </ul>
+            <a href="#">
+                <svg id="fb" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <defs>
+                        <style>
+                            .fb-color {
+                                fill: #4d4d4d;
+                            }
+                        </style>
+                    </defs>
+                    <title>fb</title>
+                    <path class="fb-color"
+                        d="M70.54,48.11H59.24v-8a3.89,3.89,0,0,1,3.89-3.89h7.62a1.14,1.14,0,0,0,1.14-1.14V23.32a1.14,1.14,0,0,0-1.14-1.14H60.6a15.63,15.63,0,0,0-2.92.29A16.35,16.35,0,0,0,44.41,38.54v9.57H34.5a1.12,1.12,0,0,0-1.12,1.12V61.61a1.12,1.12,0,0,0,1.12,1.12h9.91V95.28a1.12,1.12,0,0,0,1.12,1.12H58.12a1.12,1.12,0,0,0,1.12-1.12V62.73H69a1.14,1.14,0,0,0,1.13-1l1.59-12.28A1.19,1.19,0,0,0,70.54,48.11Z"
+                        transform="translate(0)" />
+                    <path class="fb-color"
+                        d="M50,5.5A44.5,44.5,0,1,1,5.5,50,44.55,44.55,0,0,1,50,5.5M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"
+                        transform="translate(0)" />
+                </svg></a>
+            <p>© 2020savingfoods. All Rights Reserved. </p>
+        </div>
+    </footer>
+
+
+    <!-- awesomefont CDN -->
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="public/js/index.js"></script>
+
+    <script>
+        $(".attention").click(function () {
+            if ($(this).hasClass("ing")) {
+                $(this).hide();
+                $(this).parents(".btn-box").children(".attention.notyet").show();
+            } else if ($(this).hasClass("notyet")) {
+                $(this).hide();
+                $(this).parents(".btn-box").children(".attention.ing").show();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

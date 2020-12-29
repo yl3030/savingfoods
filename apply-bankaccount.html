@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+    <title>綁定銀行帳號</title>
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">綁定銀行帳號</h1>
+        <div id="space-box">
+        </div>
+    </header>
+    
+    <main class="no-footer">
+        <form class="apply-form container form-top-box">
+            <h2 class="form-title">銀行帳號</h2>
+            <div class="input-box">
+                <label for="name">銀行名稱</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-box">
+                <label for="zone">地區</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-box">
+                <label for="second-name">分行名稱</label>
+                <input type="text" id="second-name" required>
+            </div>
+            <div class="input-box">
+                <label for="user">銀行戶名</label>
+                <input type="text" id="user" required>
+            </div>
+            <div class="input-box">
+                <label for="account">銀行帳號</label>
+                <input type="text" id="account" required>
+            </div>
+            <p class="remind">* 提醒你，身份證字號/統一編號須與銀行帳號資訊一致，否則可能會影響日後撥款權益</p>
+            <button class="btn w50p"><a href="./apply-finish.html">完成</a></button>
+        </form>
+    </main>
+
+     <!-- jQuery CDN -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./public/js/index.js"></script>
+</body>
+
+</html>                   

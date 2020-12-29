@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+    <title>編輯商品</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">編輯商品</h1>
+        <div id="space-box"></div>
+    </header>
+    
+    <main class="no-footer">
+        <div id="big-pic-box">
+            <!-- 無照片 -->
+            <div id="big-pic" class="sw bg"
+                style="background-image: url(./public/img/product-nopic.png);background-size: 33.3333%;">
+                <img src="./public/img/product-nopic.png" alt="">
+            </div>
+            <!-- 有照片 -->
+            <!-- <div id="big-pic" class="sw bg"
+                style="background-image: url(./public/img/product1.png);">
+                <img src="./public/img/product1.png" alt="">
+            </div> -->
+            <div class="change-btn">
+                <img src="./public/img/camera.png" alt="">
+            </div>
+        </div>
+        <form class="container add-product form-top-box">
+            <div class="input-box">
+                <label for="name">商品名稱</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-box">
+                <label for="introduce">商品介紹</label>
+                <textarea id="introduce" cols="30" rows="30"></textarea>
+            </div>
+            <div class="class-setting input-box">
+                <label>商品類別</label>
+                <div class="select-box">
+                    <div class="active-select">
+                        <p id="as">請選擇商品類別</p>
+                        <img src="./public/img/Triangle.png" alt="">
+                    </div>
+                    <ul class="hide-select">
+                        <li>麵包類</li>
+                        <li>泡麵類</li>
+                        <li>甜點類</li>
+                        <li>冰品類</li>
+                        <li>餅乾類</li>
+                        <li>甜點類</li>
+                        <li>冷凍食品</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="input-box price-setting">
+                <label for="price">價格</label>
+                <span>NT$</span>
+                <input type="text" id="price" required>
+            </div>
+            <div class="input-box">
+                <label for="name">規格</label>
+                <table class="spec-setting">
+                    <tr>
+                        <td>規格名稱</td>
+                        <td>數量</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <button class="add"><i class="fas fa-plus"></i>新增規格</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="input-box">
+                <label>有效期限</label>
+                <input id="expiry" class="form-control datepicker" required data-date-format="mm/dd">
+            </div>
+            <button class="btn ap-btn w50p"><a href="./product-manage.html">修改</a></button>
+        </form>
+    </main>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Bootstap-datepicker JS CDN -->
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        $('.datepicker').datepicker({
+            autoclose: true,
+            todayHighlight: true,
+        });
+    </script>
+
+    <!-- awesomefont CDN -->
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="./public/js/index.js"></script>
+</body>
+
+</html>

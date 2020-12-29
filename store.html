@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>賣家介紹</title>
+    <!-- swiper CSS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">賣家介紹</h1>
+        <div id="cart-box">
+            <a href="./cart.html">
+                <img src="./public/img/cart.png" alt="購物車" id="cart">
+                <!-- 購物車有商品 -->
+                <div class="add-num">
+                    13
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <nav id="menu" class="nav-content">
+        <ul>
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="./personal-info.html">個人資料</a></li>
+            <li><a href="./order.html">購買紀錄</a></li>
+            <li><a href="./attend-store.html">關注賣家</a></li>
+            <li><a href="./store-center.html">賣家中心</a></li>
+        </ul>
+    </nav>
+
+    <main id="store-detail">
+        <div id="big-pic" class="sw bg" style="background-image: url(./public/img/product1.png);">
+            <img src="./public/img/product1.png" alt="">
+        </div>
+        <div class="container">
+            <h5 class="store-name">吉室 JSTaiwan</h5>
+
+            <div class="data-box">
+                <div class="data">
+                    <p class="num">436</p>
+                    <p class="d-title">商品數</p>
+                </div>
+                <div class="divide"></div>
+                <div class="data">
+                    <p class="num">30</p>
+                    <p class="d-title">關注人數</p>
+                </div>
+            </div>
+
+            <div class="btn-box">
+                <button class="attention ing">關注中</button>
+                <button class="attention notyet">關注</button>
+            </div>
+            <table class="store-info">
+                <tr>
+                    <td><i class="fas fa-map-marker-alt"></i></td>
+                    <td>台北市萬華區雙園街49巷38號</td>
+                </tr>
+                <tr class="open-time">
+                    <td><i class="fas fa-clock"></i></td>
+                    <td>17:00 - 23:59、
+                        06:00 - 12:30</td>
+                </tr>
+                <tr>
+                    <td><i class="fas fa-phone-alt"></i></td>
+                    <td>02-27663666</td>
+                </tr>
+            </table>
+            <p class="store-introduce">
+                第一次喝到台灣咖啡是爸爸親手摘下院子裡紅通通的咖啡果，並親自處理及烘焙。讓當時身在美國西雅圖唸書的我們品嚐之後，除了內心的感動外，口感上更令我們感到驚艷，因為能喝到家鄉所栽種的咖啡是一種思鄉的幸福與感動。
+            </p>
+        </div>
+        <div id="store-classify">
+            <div class="swiper-container store-classify">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide class-slide all active">
+                        所有商品
+                    </div>
+                    <div class="swiper-slide class-slide bread">
+                        麵包類
+                    </div>
+                    <div class="swiper-slide class-slide noodle">
+                        泡麵類
+                    </div>
+                    <div class="swiper-slide class-slide cookie">
+                        餅乾類
+                    </div>
+                    <div class="swiper-slide class-slide icecream">
+                        冰品類
+                    </div>
+                    <div class="swiper-slide class-slide snack">
+                        甜點類
+                    </div>
+                    <div class="swiper-slide class-slide frozen">
+                        冷凍食品
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="product" class="container">
+            <div id="all" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">無糖軟糖 無添加 低卡 低熱量 護齒 禮物</h4>
+                            <p class="price">$NT82</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$NT31</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                        <p class="price">$NT34</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product4.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="bread" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product4.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                            <p class="price">$NT34</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                        <p class="price">$NT54</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$20</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="noodle" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">無糖軟糖 無添加 低卡 低熱量 護齒 禮物</h4>
+                            <p class="price">$NT82</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$NT31</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                        <p class="price">$NT34</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product4.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="cookie" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product4.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                        <p class="price">$NT34</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$20</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="icecream" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">無糖軟糖 無添加 低卡 低熱量 護齒 禮物</h4>
+                            <p class="price">$NT82</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$NT31</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                        <p class="price">$NT34</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product4.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="snack" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/produc4.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/produc3.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                        <p class="price">$NT34</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$20</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="frozen" class="p-content">
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">簡單李 麻吉兄弟 | 肉鬆花生夾心餅</h4>
+                            <p class="price">$NT54</p>
+                            <div class="deadline" close-time="2021-01-10 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product1.png)">
+                                <img src="./public/img/product1.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">無糖軟糖 無添加 低卡 低熱量 護齒 禮物</h4>
+                            <p class="price">$NT82</p>
+                            <div class="deadline" close-time="2021-01-03 12:10:46">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product2.png)">
+                                <img src="./public/img/product2.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">牛奶糖肉鬆蘇打餅乾(20片裝) 鹹甜好滋味 一片接一片</h4>
+                            <p class="price">$NT31</p>
+                            <div class="deadline" close-time="2020-12-19 16:31:17">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product3.png)">
+                                <img src="./public/img/product3.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product soldout">
+                    <div class="text">
+                        <h4 class="name">牧實 手作花生/杏仁蔓越莓 /咖啡牛軋糖</h4>
+                        <p class="price">$NT34</p>
+                        <div class="deadline" close-time="2020-12-19 16:31:17">
+                            <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                            <p class="expired">已過期</p>
+                        </div>
+                        <span class="soldout-alert">已售完</span>
+                    </div>
+                    <div class="pic-box">
+                        <div class="color-box"></div>
+                        <div class="picture bg" style="background-image:url(./public/img/product4.png)">
+                            <img src="./public/img/product4.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2021-02-25 23:03:59">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="product">
+                    <a href="./product.html">
+                        <div class="text">
+                            <h4 class="name">林百貨經典手工餅乾</h4>
+                            <p class="price">$90</p>
+                            <div class="deadline" close-time="2020-11-30 03:28:40">
+                                <p class="remain">剩餘<span></span><span></span><span></span><span></span>到期</p>
+                                <p class="expired">已過期</p>
+                            </div>
+                        </div>
+                        <div class="pic-box">
+                            <div class="picture bg" style="background-image:url(./public/img/product5.png)">
+                                <img src="./public/img/product5.png" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">用戶條款</a></li>
+                <li><a href="#">隱私權政策</a></li>
+            </ul>
+            <a href="#">
+                <svg id="fb" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <defs>
+                        <style>
+                            .fb-color {
+                                fill: #4d4d4d;
+                            }
+                        </style>
+                    </defs>
+                    <title>fb</title>
+                    <path class="fb-color"
+                        d="M70.54,48.11H59.24v-8a3.89,3.89,0,0,1,3.89-3.89h7.62a1.14,1.14,0,0,0,1.14-1.14V23.32a1.14,1.14,0,0,0-1.14-1.14H60.6a15.63,15.63,0,0,0-2.92.29A16.35,16.35,0,0,0,44.41,38.54v9.57H34.5a1.12,1.12,0,0,0-1.12,1.12V61.61a1.12,1.12,0,0,0,1.12,1.12h9.91V95.28a1.12,1.12,0,0,0,1.12,1.12H58.12a1.12,1.12,0,0,0,1.12-1.12V62.73H69a1.14,1.14,0,0,0,1.13-1l1.59-12.28A1.19,1.19,0,0,0,70.54,48.11Z"
+                        transform="translate(0)" />
+                    <path class="fb-color"
+                        d="M50,5.5A44.5,44.5,0,1,1,5.5,50,44.55,44.55,0,0,1,50,5.5M50,0a50,50,0,1,0,50,50A50,50,0,0,0,50,0Z"
+                        transform="translate(0)" />
+                </svg></a>
+            <p>© 2020savingfoods. All Rights Reserved. </p>
+        </div>
+    </footer>
+
+    <!-- awesomefont CDN -->
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+    <!-- swiper JS CDN -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="public/js/swiper.js"></script>
+    <script src="public/js/index.js"></script>
+
+    <script>
+        $(".attention").click(function () {
+            if ($(this).hasClass("ing")) {
+                $(this).hide();
+                $(this).parents(".btn-box").children(".attention.notyet").show();
+            } else if ($(this).hasClass("notyet")) {
+                $(this).hide();
+                $(this).parents(".btn-box").children(".attention.ing").show();
+            }
+        });
+    </script>
+</body>
+
+</html>

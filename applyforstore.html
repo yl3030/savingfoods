@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>申請成為賣家</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">申請成為賣家</h1>
+        <div id="space-box">
+        </div>
+    </header>
+    
+    <main class="no-footer">
+        <div id="big-pic-box">
+            <input type="file" id="input-file">
+            <div id="big-pic" class="sw bg"
+                style="background-image: url(./public/img/picture.png);background-size: 33.3333%;">
+                <img src="./public/img/picture.png" alt="">
+            </div>
+            <!-- 有照片 -->
+            <!-- <div id="big-pic" class="sw bg"
+                style="background-image: url(./public/img/product1.png);">
+                <img src="./public/img/product1.png" alt="">
+            </div> -->
+            <div class="change-btn">
+                <img src="./public/img/camera.png" alt="">
+            </div>
+        </div>
+        <form class="apply-form form-top-box container">
+            <div class="input-box">
+                <label for="name">賣場名稱</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-box">
+                <label for="phone">賣場電話</label>
+                <input type="number" id="phone" required>
+            </div>
+            <div class="input-box">
+                <label for="address">賣場地址</label>
+                <div role="tw-city-selector" class="city-selector-set">
+                    <div>
+                        <!-- 縣市選單 -->
+                        <select class="county"></select>
+                        <img src="./public/img/Triangle.png" alt="">
+                    </div>
+                    <div>
+                        <!-- 區域選單 -->
+                        <select class="district"></select>
+                        <img src="./public/img/Triangle.png" alt="">
+                    </div>
+                </div>
+                <input type="text" id="address" required>
+            </div>
+            <div class="input-box">
+                <label for="open-time">營業時間</label>
+                <input type="time" id="open-time">
+                <button class="add"><i class="fas fa-plus"></i>新增營業時間</button>
+            </div>
+            <div class="input-box" style="margin-top: 36px;">
+                <label for="introduce">賣場簡介</label>
+                <textarea id="introduce" cols="30" rows="30"></textarea>
+            </div>
+            <button class="btn w50p"><a href="./apply-userinfo.html">
+                下一步
+            </a></button>
+        </form>
+    </main>
+
+    <!-- awesomefont CDN -->
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/tw-city-selector@2.1.1/dist/tw-city-selector.min.js"></script>
+    <script>
+        new TwCitySelector({
+            el: '.city-selector-set',
+            elCounty: '.county', // 在 el 裡查找 element
+            elDistrict: '.district', // 在 el 裡查找 element
+        });
+    </script>
+     <!-- jQuery CDN -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./public/js/index.js"></script>
+
+</body>
+
+</html>

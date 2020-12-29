@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>訂單管理</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">訂單管理</h1>
+        <div id="setting-box">
+            <img src="./public/img/settings.png" alt="">
+        </div>
+    </header>
+    <nav id="setting" class="nav-content">
+        <ul>
+            <li><a href="./store-center.html">賣家中心</a></li>
+            <li><a href="./order-manage.html">訂單管理</a></li>
+            <li><a href="./product-manage.html">商品管理</a></li>
+            <li><a href="./add-product.html">新增商品</a></li>
+            <li><a href="./money-manage.html">財務管理</a></li>
+            <li><a href="./data-center.html">數據中心</a></li>
+            <li><a href="./store-data.html">賣家資料</a></li>
+        </ul>
+    </nav>
+    <main class="no-footer container top-box manage" id="order">
+        <div class="btn-box">
+            <button class="btn active">全部</button>
+            <button class="btn done-btn">已完成</button>
+            <button class="btn not-btn">尚未取貨</button>
+        </div>
+        <div class="order-date">
+            <span>訂單成立時間</span>
+            <div class="select-box">
+                <div class="active-select">
+                    <p id="as">2020/11/22 - 2020/11/28</p>
+                    <img src="./public/img/Triangle.png" alt="">
+                </div>
+                <ul class="hide-select">
+                    <li>2020/11/22 - 2020/11/28</li>
+                    <li>2020/11/15 - 2020/11/21</li>
+                    <li>2020/11/08 - 2020/11/14</li>
+                    <li>2020/11/01 - 2020/11/07</li>
+                </ul>
+            </div>
+        </div>
+        <div class="order-list">
+            <div class="o-title">
+                <a>
+                    <span>日期</span>
+                    <span>訂單編號</span>
+                    <span>金額</span>
+                    <span>狀態</span>
+                </a>
+            </div>
+            <div class="done">
+                <a href="./order-detail-forstore.html">
+                    <span>11/28</span>
+                    <span>D4958672</span>
+                    <span>467</span>
+                    <span>完成</span>
+                </a>
+            </div>
+            <div class="notpick">
+                <a href="./order-detail-forstore.html">
+                    <span>11/28</span>
+                    <span>D4958224</span>
+                    <span>47</span>
+                    <span>未取貨</span>
+                </a>
+            </div>
+            <div class="done">
+                <a href="./order-detail-forstore.html">
+                    <span>11/27</span>
+                    <span>D4228672</span>
+                    <span>67</span>
+                    <span>完成</span>
+                </a>
+            </div>
+            <div class="done">
+                <a href="./order-detail-forstore.html">
+                    <span>11/26</span>
+                    <span>D4951672</span>
+                    <span>40</span>
+                    <span>完成</span>
+                </a>
+            </div>
+            <div class="notpick">
+                <a href="./order-detail-forstore.html">
+                    <span>11/26</span>
+                    <span>D1958672</span>
+                    <span>38</span>
+                    <span>未取貨</span>
+                </a>
+            </div>
+            <div class="notpick">
+                <a href="./order-detail-forstore.html">
+                    <span>11/25</span>
+                    <span>D4998672</span>
+                    <span>789</span>
+                    <span>未取貨</span>
+                </a>
+            </div>
+            <div class="done">
+                <a href="./order-detail-forstore.html">
+                    <span>11/24</span>
+                    <span>D4992672</span>
+                    <span>78</span>
+                    <span>完成</span>
+                </a>
+            </div>
+            <div class="notpick">
+                <a href="./order-detail-forstore.html">
+                    <span>11/24</span>
+                    <span>D4998612</span>
+                    <span>122</span>
+                    <span>未取貨</span>
+                </a>
+            </div>
+            <div class="done">
+                <a href="./order-detail-forstore.html">
+                    <span>11/23</span>
+                    <span>D4928612</span>
+                    <span>22</span>
+                    <span>完成</span>
+                </a>
+            </div>
+            <div class="notpick">
+                <a href="./order-detail-forstore.html">
+                    <span>11/23</span>
+                    <span>D4998610</span>
+                    <span>25</span>
+                    <span>未取貨</span>
+                </a>
+            </div>
+            <div class="notpick">
+                <a href="./order-detail-forstore.html">
+                    <span>11/22</span>
+                    <span>D5998612</span>
+                    <span>35</span>
+                    <span>未取貨</span>
+                </a>
+            </div>
+            <div class="done">
+                <a href="./order-detail-forstore.html">
+                    <span>11/22</span>
+                    <span>D4998512</span>
+                    <span>500</span>
+                    <span>完成</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="public/js/index.js"></script>
+
+</body>
+
+</html>

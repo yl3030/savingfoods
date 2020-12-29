@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>數據中心</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">數據中心</h1>
+        <div id="setting-box">
+            <img src="./public/img/settings.png" alt="">
+        </div>
+    </header>
+    <nav id="setting" class="nav-content">
+        <ul>
+            <li><a href="./store-center.html">賣家中心</a></li>
+            <li><a href="./order-manage.html">訂單管理</a></li>
+            <li><a href="./product-manage.html">商品管理</a></li>
+            <li><a href="./add-product.html">新增商品</a></li>
+            <li><a href="./money-manage.html">財務管理</a></li>
+            <li><a href="./data-center.html">數據中心</a></li>
+            <li><a href="./store-data.html">賣家資料</a></li>
+        </ul>
+    </nav>
+    <main class="top-box container no-footer manage" id="data">
+        <div class="btn-box">
+            <button class="btn day-btn">本日</button>
+            <button class="btn week-btn active">本週</button>
+            <button class="btn month-btn">本月</button>
+        </div>
+        <canvas id="sell"></canvas>
+        <div id="data-num">
+            <div class="data-num">
+                <p>78</p>
+                <p>頁面瀏覽數</p>
+            </div>
+            <div class="data-num">
+                <p>38</p>
+                <p>訂單</p>
+            </div>
+            <div class="data-num">
+                <p><span style="margin-right: 5px;">$</span>51</p>
+                <p>平均訂單金額</p>
+            </div>
+            <div class="data-num">
+                <p><span style="margin-right: 5px;">$</span>356</p>
+                <p>銷售額</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="./public/js/chart.js"></script>
+    <script src="./public/js/index.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購買紀錄</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="menu-icon">
+            <div class="top-bar bar"></div>
+            <div class="middle-bar bar"></div>
+            <div class="bottom-bar bar"></div>
+        </div>
+        <!-- <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div> -->
+        <h1 id="title">購買紀錄</h1>
+        <div id="cart-box">
+            <a href="./cart.html">
+                <img src="./public/img/cart.png" alt="購物車" id="cart">
+                <!-- 購物車有商品 -->
+                <div class="add-num">
+                    13
+                </div>
+            </a>
+        </div>
+    </header>
+    <nav id="menu" class="nav-content">
+        <ul>
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="./personal-info.html">個人資料</a></li>
+            <li><a href="./order.html">購買紀錄</a></li>
+            <li><a href="./attend-store.html">關注賣家</a></li>
+            <li><a href="./store-center.html">賣家中心</a></li>
+        </ul>
+    </nav>
+    <main class="container no-footer">
+        <div id="record">
+            <div class="record user-data">
+                <span class="date">2020.11.04</span>
+                <span class="status notpick">未取貨</span>
+                <a href="./order-detail.html">
+                    <table>
+                        <tr>
+                            <td>訂單編號</td>
+                            <td>A346294</td>
+                            <td rowspan="5"><a href="./order-detail.html"><i class="fas fa-angle-right"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>姓名</td>
+                            <td>喜洋洋</td>
+                        </tr>
+                        <tr>
+                            <td>電話</td>
+                            <td>0912849380</td>
+                        </tr>
+                        <tr>
+                            <td>發票</td>
+                            <td>個人發票</td>
+                        </tr>
+                        <tr>
+                            <td>總額</td>
+                            <td>NT$345</td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+            <div class="record user-data">
+                <span class="date">2020.10.04</span>
+                <span class="status notpick">未取貨</span>
+                <a href="./order-detail.html">
+                    <table>
+                        <tr>
+                            <td>訂單編號</td>
+                            <td>A346294</td>
+                            <td rowspan="5"><a href="./order-detail.html"><i class="fas fa-angle-right"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>姓名</td>
+                            <td>喜洋洋</td>
+                        </tr>
+                        <tr>
+                            <td>電話</td>
+                            <td>0912849380</td>
+                        </tr>
+                        <tr>
+                            <td>發票</td>
+                            <td>個人發票</td>
+                        </tr>
+                        <tr>
+                            <td>總額</td>
+                            <td>NT$345</td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+            <div class="record user-data">
+                <span class="date">2020.07.23</span>
+                <span class="status done">完成</span>
+                <a href="./order-detail.html">
+                    <table>
+                        <tr>
+                            <td>訂單編號</td>
+                            <td>A346294</td>
+                            <td rowspan="5"><a href="./order-detail.html"><i class="fas fa-angle-right"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td>姓名</td>
+                            <td>喜洋洋</td>
+                        </tr>
+                        <tr>
+                            <td>電話</td>
+                            <td>0912849380</td>
+                        </tr>
+                        <tr>
+                            <td class="receipt">發票</td>
+                            <td class="receipt">三聯式發票<br>
+                                隼思科技有限公司<br>
+                                45014155</td>
+                        </tr>
+                        <tr>
+                            <td>總額</td>
+                            <td>NT$345</td>
+                        </tr>
+                    </table>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- awesomefont CDN -->
+    <script src="https://kit.fontawesome.com/69fd600045.js" crossorigin="anonymous"></script>
+
+     <!-- jQuery CDN -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./public/js/index.js"></script>
+
+</body>
+
+</html>

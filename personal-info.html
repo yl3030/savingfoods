@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人資料</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="menu-icon">
+            <div class="top-bar bar"></div>
+            <div class="middle-bar bar"></div>
+            <div class="bottom-bar bar"></div>
+        </div>
+        <!-- <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div> -->
+        <h1 id="title">個人資料</h1>
+        <div id="cart-box">
+            <a href="./cart.html">
+                <img src="./public/img/cart.png" alt="購物車" id="cart">
+                <!-- 購物車有商品 -->
+                <div class="add-num">
+                    13
+                </div>
+            </a>
+        </div>
+    </header>
+    <nav id="menu" class="nav-content">
+        <ul>
+            <li><a href="./index.html">首頁</a></li>
+            <li><a href="./personal-info.html">個人資料</a></li>
+            <li><a href="./order.html">購買紀錄</a></li>
+            <li><a href="./attend-store.html">關注賣家</a></li>
+            <li><a href="./store-center.html">賣家中心</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form class="personal-form container form-top-box">
+            <div class="input-box">
+                <label for="name">姓名</label>
+                <input type="text" id="name" required>
+            </div>
+            <div class="input-box">
+                <label for="zone">電話</label>
+                <input type="number" id="name" required>
+            </div>
+            <div class="btn-box">
+                <button class="btn">取消變更</button>
+                <button class="btn">儲存</button>
+            </div>
+        </form>
+    </main>
+
+     <!-- jQuery CDN -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./public/js/index.js"></script>
+</body>
+
+</html>

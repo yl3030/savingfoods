@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>填寫資料</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+    <link rel="shortcut icon" href="./public/img/logo2.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div id="back-arrow">
+            <img src="./public/img/back.png" alt="">
+        </div>
+        <h1 id="title">填寫資料</h1>
+        <div id="space-box">
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="step">
+            <span class="step active">1</span>
+            <span class="line active"></span>
+            <span class="step active">2</span>
+        </div>
+        <form class="shopping-form">
+            <div class="user-data result">
+                <h5 class="info-title">訂購人資料</h5>
+                <button>編輯</button>
+                <div>
+                    <p>喜洋洋</p>
+                    <p>0912849380</p>
+                </div>
+            </div>
+            <div class="user-data edit">
+                <h5 class="info-title">訂購人資料</h5>
+                <button>儲存</button>
+                <div class="input-box">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">電話</label>
+                    <input type="text" id="phone" required>
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="name" class="info-title">發票</label>
+                <div class="select-box select-receipt">
+                    <div class="active-select">
+                        <p id="as">個人發票</p>
+                        <img src="./public/img/Triangle.png" alt="">
+                    </div>
+                    <ul class="hide-select">
+                        <li>個人發票</li>
+                        <li class="company-receipt">三聯式發票</li>
+                    </ul>
+                </div>
+                <!-- 三聯式發票 -->
+                <div class="company">
+                    <input type="text" id="num" placeholder="統一編號" required>
+                    <input type="text" id="tit" placeholder="發票抬頭" required>
+                </div>
+            </div>
+            <div class="input-box">
+                <label for="remark" class="info-title">備註</label>
+                <textarea id="remark" cols="30" rows="30"></textarea>
+            </div>
+        </form>
+        <button class="btn pay">
+            <a href="#">Line Pay付款</a>
+        </button>
+    </main>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="public/js/index.js"></script>
+</body>
+
+</html>
